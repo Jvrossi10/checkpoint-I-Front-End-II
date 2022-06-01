@@ -79,12 +79,12 @@ btn .addEventListener('click',  (e) =>{
         <div>
         `;  
         resp.innerHTML += resposta;
-        
-        
-      }
+    }
 
-
-   resp();
+    
+    if (checkValidation === 3) {
+        resp();
+    }
 
 });
   
